@@ -1,4 +1,4 @@
-# 15.1_Cloude_Providers_Aleksandr_Molokov
+![subnets](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/8e82f1d4-8ba5-4248-a4d8-70eceba29878)# 15.1_Cloude_Providers_Aleksandr_Molokov
 
 ### Задание 1. Yandex Cloud 
 
@@ -8,6 +8,8 @@
 
 ### Ответ
 
+![VPC](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/8cb60b89-ca66-4dd4-bf67-b5a5a29f00c3)
+
 ### 2. Публичная подсеть.
 
  - Создать в VPC subnet с названием public, сетью 192.168.10.0/24.
@@ -16,6 +18,16 @@
 
 ### Ответ
 
+#### Подсети
+![subnets](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/42a54e8e-d30c-409c-862c-25011c91161f)
+
+#### NAT instance и ВМ 
+
+![VM](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/e5052477-a2b9-4bc1-8d26-a6cf1745de68)
+
+#### Проверка доступа к интернету из ВМ в подсети pablic
+
+![2 task ](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/d7e72fd9-83b4-4533-9392-180c8eb3b5c0)
 
 ### 3. Приватная подсеть.
  - Создать в VPC subnet с названием private, сетью 192.168.20.0/24.
@@ -23,3 +35,33 @@
  - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
 
 ### Ответ
+#### Подсеть private и статический маршрут
+
+![subnets](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/6c0f2f55-6ee0-41cc-9df4-7442136c2f0c)
+
+#### Таблица маршрутизации
+
+![nat-instance-route](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/fff3838c-43b7-4101-838c-d7cd72f7c1d4)
+
+#### ВМ в подсети private
+
+![VM](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/919e7173-6808-440b-8c4d-b71f2f8f0a4c)
+
+#### Проверка доступности к интернету из private подсети
+
+![3 task](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/1f80ec61-2f72-45aa-8f8f-567b55d14436)
+
+Terraform
+
+![main.tf]()
+
+![vars.tf]()
+
+![infrastructure.tf]()
+
+![output.tf]()
+
+![metadata.yml]()
+
+
+
