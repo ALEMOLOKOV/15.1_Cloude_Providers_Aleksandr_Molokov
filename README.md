@@ -1,4 +1,4 @@
-![subnets](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/8e82f1d4-8ba5-4248-a4d8-70eceba29878)# 15.1_Cloude_Providers_Aleksandr_Molokov
+# 15.1_Cloude_Providers_Aleksandr_Molokov
 
 ### Задание 1. Yandex Cloud 
 
@@ -35,6 +35,7 @@
  - Создать в этой приватной подсети виртуалку с внутренним IP, подключиться к ней через виртуалку, созданную ранее, и убедиться, что есть доступ к интернету.
 
 ### Ответ
+
 #### Подсеть private и статический маршрут
 
 ![subnets](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/6c0f2f55-6ee0-41cc-9df4-7442136c2f0c)
