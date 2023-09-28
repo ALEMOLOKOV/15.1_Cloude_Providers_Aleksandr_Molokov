@@ -51,17 +51,18 @@
 
 ![3 task](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/assets/109212419/1f80ec61-2f72-45aa-8f8f-567b55d14436)
 
-Terraform
 
-![main.tf]()
+### Terraform
 
-![vars.tf]()
+![main.tf](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/blob/c805384a78a5a9e7ac8a1f665e32a9befa256313/main.tf)
 
-![infrastructure.tf]()
+![vars.tf](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/blob/8d6f83422d7141234f95dd5f24dbad90dfe0cba0/vars.tf)
 
-![output.tf]()
+![infrastructure.tf](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/blob/8d6f83422d7141234f95dd5f24dbad90dfe0cba0/infrastructure.tf)
 
-![metadata.yml]()
+![output.tf](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/blob/8d6f83422d7141234f95dd5f24dbad90dfe0cba0/output.tf)
+
+![metadata.yml](https://github.com/ALEMOLOKOV/15.1_Cloude_Providers_Aleksandr_Molokov/blob/8d6f83422d7141234f95dd5f24dbad90dfe0cba0/metadata.yml)
 
 
 
